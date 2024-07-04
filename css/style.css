@@ -28,6 +28,12 @@ main {
   flex-wrap: wrap;
   gap: 1rem;
 }
+div{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 .product, .cart-item {
   background-color: #fff;
